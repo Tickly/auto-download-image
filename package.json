@@ -1,0 +1,32 @@
+{
+  "name": "auto-download-image",
+  "version": "1.0.0",
+  "description": "可以自动下载图片的插件，支持自动翻页。",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/popup.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tickly/auto-download-image.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tickly/auto-download-image/issues"
+  },
+  "homepage": "https://github.com/Tickly/auto-download-image#readme",
+  "dependencies": {
+    "element-ui": "^2.7.2",
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@vue/component-compiler-utils": "^3.0.0",
+    "babel-plugin-component": "^1.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
